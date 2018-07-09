@@ -1,4 +1,4 @@
-##huawei-obs
+# huawei-obs
 
 huawei OBS(Object Storage Service) client for nodeJS
 
