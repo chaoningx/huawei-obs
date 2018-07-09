@@ -1,0 +1,617 @@
+AccessDenied
+
+拒绝访问。
+
+403 Forbidden
+
+AccessForbidden
+
+权限不足。
+
+403 Forbidden
+
+AccountProblem
+
+用户的账户出现异常（过期、冻结等），不能成功地完成操作。
+
+403 Forbidden
+
+AllAccessDisabled
+
+用户无权限执行某操作。
+
+403 Forbidden
+
+AmbiguousGrantByEmailAddress
+
+用户提供的Email地址关联的账户超过了1个。
+
+400 Bad Request
+
+BadDigest
+
+客户端指定的对象内容的MD5值与系统接收到的内容MD5值不一致。
+
+400 Bad Request
+
+BadDomainName
+
+域名不合法。
+
+400 Bad Request
+
+BadRequest
+
+请求参数不合法。
+
+400 Bad Request
+
+BucketAlreadyExists
+
+请求的桶名已经存在。桶的命名空间是系统中所有用户共用的，选择一个不同的桶名再重试一次。
+
+409 Conflict
+
+BucketAlreadyOwnedByYou
+
+发起该请求的用户已经创建过了这个名字的桶，并拥有这个桶。
+
+409 Conflict
+
+BucketNotEmpty
+
+用户尝试删除的桶不为空。
+
+409 Conflict
+
+CredentialsNotSupported
+
+该请求不支持证书验证。
+
+400 Bad Request
+
+CustomDomainAreadyExist
+
+配置了已存在的域。
+
+400 Bad Request
+
+CustomDomainNotExist
+
+操作的域不存在。
+
+400 Bad Request
+
+DeregisterUserId
+
+用户已经注销。
+
+403 Forbidden
+
+EntityTooSmall
+
+用户试图上传的对象大小小于系统允许的最小大小。
+
+400 Bad Request
+
+EntityTooLarge
+
+用户试图上传的对象大小超过了系统允许的最大大小。
+
+400 Bad Request
+
+FrozenUserId
+
+用户被冻结。
+
+403 Forbidden
+
+IllegalVersioningConfiguration Exception
+
+请求中的版本配置无效。
+
+400 Bad Request
+
+IllegalLocationConstraintException
+
+配置了与所在Region不匹配的区域限制。
+
+400 Bad Request
+
+InArrearOrInsufficientBalance
+
+用户欠费或余额不足而没有权限进行某种操作。
+
+403 Forbidden
+
+IncompleteBody
+
+请求体不完整。
+
+400 Bad Request
+
+IncorrectNumberOfFilesInPost Request
+
+每个POST请求都需要带一个上传的文件。
+
+400 Bad Request
+
+InlineDataTooLarge
+
+Inline Data超过了允许的最大长度。
+
+400 Bad Request
+
+InsufficientStorageSpace
+
+存储空间不足。
+
+403 Forbidden
+
+InternalError
+
+系统遇到内部错误，请重试。
+
+500 Internal Server Error
+
+InvalidAccessKeyId
+
+系统记录中不存在客户提供的Access Key Id。
+
+403 Forbidden
+
+InvalidAddressingHeader
+
+用户必须指定匿名角色。
+
+N/A
+
+InvalidArgument
+
+无效的参数。
+
+400 Bad Request
+
+InvalidBucketName
+
+请求中指定的桶名无效。
+
+400 Bad Request
+
+InvalidBucket
+
+请求访问的桶已不存在。
+
+400 Bad Request
+
+InvalidBucketState
+
+无效的桶状态。
+
+409 Conflict
+
+InvalidBucketStoragePolicy
+
+修改桶策略时，提供的新策略不合法。
+
+400 Bad Request
+
+InvalidDigest
+
+HTTP头中指定的Content-MD5值无效。
+
+400 Bad Request
+
+InvalidEncryptionAlgorithmError
+
+错误的加密算法。
+
+400 Bad Request
+
+InvalidLocationConstraint
+
+创建桶时，指定的location不合法。
+
+400 Bad Request
+
+InvalidPart
+
+一个或多个指定的段无法找到。这些段可能没有上传，或者指定的entity tag与段的entity tag不一致。
+
+400 Bad Request
+
+InvalidPartOrder
+
+段列表的顺序不是升序，段列表必须按段号升序排列。
+
+400 Bad Request
+
+InvalidPayer
+
+所有对这个对象的访问已经无效了。
+
+403 Forbidden
+
+InvalidPolicyDocument
+
+表单中的内容与策略文档中指定的条件不一致。
+
+400 Bad Request
+
+InvalidRange
+
+请求的range不可获得。
+
+416 Client Requested Range Not Satisfiable
+
+InvalidRedirectLocation
+
+无效的重定向地址。
+
+400 Bad Request
+
+InvalidRequest
+
+无效请求。
+
+400 Bad Request
+
+InvalidRequestBody
+
+POST请求体无效。
+
+400 Bad Request
+
+InvalidSecurity
+
+提供的安全证书无效。
+
+403 Forbidden
+
+InvalidStorageClass
+
+用户指定的Storage Class无效。
+
+400 Bad Request
+
+InvalidTargetBucketForLogging
+
+delivery group对目标桶无ACL权限。
+
+400 Bad Request
+
+InvalidURI
+
+无法解析指定的URI。
+
+400 Bad Request
+
+KeyTooLong
+
+提供的Key过长。
+
+400 Bad Request
+
+MalformedACLError
+
+提供的XML格式错误，或者不符合我们要求的格式。
+
+400 Bad Request
+
+MalformedError
+
+请求中携带的XML格式不正确。
+
+400 Bad Request
+
+MalformedLoggingStatus
+
+Logging的XML格式不正确。
+
+400 Bad Request
+
+MalformedPolicy
+
+Bucket policy检查不通过。
+
+400 Bad Request
+
+MalformedPOSTRequest
+
+POST请求的请求体不是结构化良好的多段或形式化数据。
+
+400 Bad Request
+
+MalformedQuotaError
+
+Quota的XML格式不正确。
+
+400 Bad Request
+
+MalformedXML
+
+当用户发送了一个配置项的错误格式的XML会出现这样的错误。
+
+400 Bad Request
+
+MaxMessageLengthExceeded
+
+请求消息过长。
+
+400 Bad Request
+
+MaxPostPreDataLengthExceeded Error
+
+在上传文件前面的POST请求域过大。
+
+400 Bad Request
+
+MetadataTooLarge
+
+元数据消息头超过了允许的最大元数据大小。
+
+400 Bad Request
+
+MethodNotAllowed
+
+指定的方法不允许操作在请求的资源上。
+
+405 Method Not Allowed
+
+MissingContentLength
+
+必须要提供HTTP消息头中的Content-Length字段。
+
+411 Length Required
+
+MissingRegion
+
+请求中缺少Region信息，且系统无默认Region。
+
+400 Bad Request
+
+MissingRequestBodyError
+
+当用户发送一个空的XML文档作为请求时会发生。
+
+400 Bad Request
+
+MissingRequiredHeader
+
+请求中缺少必要的头域。
+
+400 Bad Request
+
+MissingSecurityHeader
+
+请求缺少一个必须的头。
+
+400 Bad Request
+
+NoSuchBucket
+
+指定的桶不存在。
+
+404 Not Found
+
+NoSuchBucketPolicy
+
+桶policy不存在。
+
+404 Not Found
+
+NoSuchCORSConfiguration
+
+CORS配置不存在。
+
+404 Not Found
+
+NoSuchCustomDomain
+
+请求的用户域不存在。
+
+404 Not Found
+
+NoSuchKey
+
+指定的Key不存在。
+
+404 Not Found
+
+NoSuchLifecycleConfiguration
+
+请求的LifeCycle不存在。
+
+404 Not Found
+
+NoSuchPolicy
+
+给定的policy名字不存在。
+
+404 Not Found
+
+NoSuchUpload
+
+指定的多段上传不存在。Upload ID不存在，或者多段上传已经终止或完成。
+
+404 Not Found
+
+NoSuchVersion
+
+请求中指定的version ID与现存的所有版本都不匹配。
+
+404 Not Found
+
+NoSuchWebsiteConfiguration
+
+请求的Website不存在。
+
+404 Not Found
+
+NotImplemented
+
+用户提供的消息头功能上还没有实现。
+
+501 Not Implemented
+
+NotSignedUp
+
+你的帐户还没有在系统中注册，必须先在系统中注册了才能使用该帐户。
+
+403 Forbidden
+
+OperationAborted
+
+另外一个冲突的操作当前正作用在这个资源上，请重试。
+
+409 Conflict
+
+PermanentRedirect
+
+尝试访问的桶必须使用指定的结点，请将以后的请求发送到这个结点。
+
+301 Moved Permanently
+
+PreconditionFailed
+
+用户指定的先决条件中至少有一项没有包含。
+
+412 Precondition Failed
+
+Redirect
+
+临时重定向。
+
+307 Moved Temporarily
+
+RequestIsNotMultiPartContent
+
+桶POST必须是闭式的多段/表单数据。
+
+400 Bad Request
+
+RequestTimeout
+
+用户与Server之间的socket连接在超时时间内没有进行读写操作。
+
+400 Bad Request
+
+RequestTimeTooSkewed
+
+请求的时间与服务器的时间相差太大。
+
+403 Forbidden
+
+RequestTorrentOfBucketError
+
+不允许请求桶的torrent文件。
+
+400 Bad Request
+
+ServiceNotImplemented
+
+请求的方法服务端没有实现。
+
+501 Not Implemented
+
+ServiceNotSupported
+
+请求的方法服务端不支持。
+
+409 Conflict
+
+ServiceUnavailable
+
+服务器过载或者内部错误异常。
+
+503 Service Unavailable
+
+SignatureDoesNotMatch
+
+请求中带的签名与系统计算得到的签名不一致。检查你的Secret Access Key 和签名计算方法。
+
+403 Forbidden
+
+SlowDown
+
+请降低请求频率。
+
+503 Service Unavailable
+
+System Capacity Not enough
+
+系统空间不足异常 。
+
+403 Forbidden
+
+TooManyCustomDomains
+
+配置了过多的用户域
+
+400 Bad Request
+
+TemporaryRedirect
+
+当DNS更新时，请求将被重定向到桶。
+
+307 Moved Temporarily
+
+TooManyBuckets
+
+用户拥有的桶的数量达到了系统的上限，并且请求试图创建一个新桶。
+
+400 Bad Request
+
+TooManyObjectCopied
+
+用户单个对象被拷贝的数量超过系统上限。
+
+400 Bad Request
+
+TooManyWrongSignature
+
+因高频错误请求被拒绝服务。
+
+400 Bad Request
+
+Unauthorized
+
+用户未实名认证。
+
+403 Forbidden
+
+UnexpectedContent
+
+该请求不支持带内容字段。
+
+400 Bad Request
+
+UnresolvableGrantByEmailAddress
+
+用户提供的Email与记录中任何帐户的都不匹配。
+
+400 Bad Request
+
+UserKeyMustBeSpecified
+
+请求中缺少用户的AK信息。
+
+400 Bad Request
+
+WebsiteRedirect
+
+Website请求缺少bucketName。
+
+301 Moved Permanently
+
+KMS.DisabledException
+
+SSE-KMS加密方式下，主密钥被禁用。
+
+400 Bad Request
+
+KMS.NotFoundException
+
+SSE-KMS加密方式下，主密钥不存在。
+
+400 Bad Request
