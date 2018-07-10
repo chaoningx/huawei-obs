@@ -12,7 +12,7 @@ const client = new OBS({
   accessKey: '',
   secretAccessKey: '',
   endpoint: '',
-  bucketName: ''
+  bucketName: '',
 });
 
 describe('Huawei OBS', () => {
