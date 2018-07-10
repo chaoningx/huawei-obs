@@ -2,7 +2,7 @@ const path = require('path');
 const should = require('should');
 const OBS = require('../lib/index');
 
-const ORIGIN_FILE_PATH = path.join(__dirname, 'resource', 'put_object.jpg');
+const ORIGIN_FILE_PATH = '/Users/chaoningx/Desktop/test.flac';
 const OBJECT_NAME = `中国/北方/北京_test_${new Date().getTime()}.jpg`;
 const LOCAL_FILE_NAME = `北京_test_${new Date().getTime()}_download.jpg`;
 
@@ -22,6 +22,10 @@ describe('Huawei OBS', () => {
         should.not.exist(err);
         should.exist(info);
         done();
+      }, (chunk, processStatus) => {
+        should.exist(chunk);
+        should.exist(processStatus);
+        console.log(processStatus);
       });
     });
   });
@@ -32,9 +36,10 @@ describe('Huawei OBS', () => {
         should.not.exist(err);
         should.exist(info);
         done();
-      }, (chunk, percent) => {
+      }, (chunk, processStatus) => {
         should.exist(chunk);
-        should.exist(percent);
+        should.exist(processStatus);
+        console.log(processStatus);
       });
     });
   });
