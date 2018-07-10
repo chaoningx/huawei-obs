@@ -5,7 +5,7 @@ huawei OBS(Object Storage Service) client for nodeJS
 ## Installation
 
 ```bash
-$ npm install egg --save
+$ npm install huawei-obs --save
 ```
 
 Node.js >= 8.0.0 required.
