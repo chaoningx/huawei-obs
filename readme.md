@@ -22,32 +22,27 @@ Node.js >= 8.0.0 required.
 upload object
 
 more detail：https://support.huaweicloud.com/api-obs/zh-cn_topic_0100846775.html
-
-@param {String} the name display in obs 
-
-@param {String} filePath upload file path
-
-@param callback callback when file uploaded
- 
-@param processCallback upload process callback, include processCallback(chunk, hasUploadPercent)
+```text
+@param {String} name - the name display in obs 
+@param {String} filePath - upload file path
+@param {Function} callback - callback when file uploaded
+@param {Function} processCallback - upload process callback, include processCallback(chunk, hasUploadPercent)
+@param {String} bucketName - bucket name
+```
  
 ### getObject(name, storagePath, callback, processCallback, isOverwrite=false, range) {
 
 download object
 
 more detail：https://support.huaweicloud.com/api-obs/zh-cn_topic_0100846779.html
-
-@param {String} the name in obs
-
-@param {String} storagePath download file path
-
-@param {Function} callback callback when file uploaded
- 
-@param {Function} processCallback upload process callback, include processCallback(chunk, hasUploadPercent)
-
-@param {Boolean} isOverwrite if local file exist , is overwrite ? default: false
-
-
+```text
+@param {String} name - the name in obs
+@param {String} storagePath - download file path
+@param {Function} callback - callback when file uploaded
+@param {Function} processCallback - upload process callback, include processCallback(chunk, hasUploadPercent)
+@param {Boolean} isOverwrite - if local file exist , is overwrite ? default: false
+@param {String} bucketName - bucket name
+```
 ## Example
 
 ```bash
