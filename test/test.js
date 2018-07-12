@@ -25,7 +25,6 @@ describe('Huawei OBS', () => {
       }, (chunk, processStatus) => {
         should.exist(chunk);
         should.exist(processStatus);
-        console.log(processStatus);
       });
     });
   });
@@ -39,7 +38,6 @@ describe('Huawei OBS', () => {
       }, (chunk, processStatus) => {
         should.exist(chunk);
         should.exist(processStatus);
-        console.log(processStatus);
       });
     });
   });
@@ -48,9 +46,9 @@ describe('Huawei OBS', () => {
     it('should not return err just info', (done) => {
       client.headObject(OBJECT_NAME, (err, info) => {
         should.not.exist(err);
-        should.exist(info);
         done();
       });
     });
   });
 });
+
