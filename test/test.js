@@ -50,5 +50,15 @@ describe('Huawei OBS', () => {
       });
     });
   });
+
+  describe('#deleteObject()', () => {
+    it('should not return err just info', (done) => {
+      client.deleteObject(OBJECT_NAME, (err, info) => {
+        console.log('delete info -->', info);
+        should.not.exist(err);
+        done();
+      });
+    });
+  });
 });
 

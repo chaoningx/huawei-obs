@@ -38,7 +38,7 @@ more detail：https://support.huaweicloud.com/api-obs/zh-cn_topic_0100846779.htm
 ```text
 @param {String} name - the name in obs
 @param {String} storagePath - download file path
-@param {Function} callback - callback when file uploaded
+@param {Function} callback - callback when file has been download
 @param {Function} processCallback - upload process callback, include processCallback(chunk, hasUploadPercent)
 @param {Boolean} isOverwrite - if local file exist , is overwrite ? default: false
 @param {String} bucketName - bucket name
@@ -51,10 +51,20 @@ get object information.
 more detail：https://support.huaweicloud.com/api-obs/zh-cn_topic_0100846780.html
 ```text
 @param {String} name - the name in obs
-@param {Function} callback - callback when file uploaded
+@param {Function} callback - callback
 @param {String} bucketName - bucket name
 ```
 
+### deleteObject(name, [callback], [bucketName])
+
+delete object information.
+
+more detail：https://support.huaweicloud.com/api-obs/zh-cn_topic_0100846782.html
+```text
+@param {String} name - the name in obs
+@param {Function} callback - callback when file deleted
+@param {String} bucketName - bucket name
+```
 ## Example
 
 ```bash
