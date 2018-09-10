@@ -30,14 +30,14 @@ more detail：https://support.huaweicloud.com/api-obs/zh-cn_topic_0100846775.htm
 @param {String} bucketName - bucket name
 ```
  
-### getObject(name, storagePath, [callback], [processCallback], [isOverwrite=false], [range])
+### getObject(name, storagePathOrWriteStream, [callback], [processCallback], [isOverwrite=false], [range])
 
 download object
 
 more detail：https://support.huaweicloud.com/api-obs/zh-cn_topic_0100846779.html
 ```text
 @param {String} name - the name in obs
-@param {String} storagePath - download file path
+@param {String} storagePathOrWriteStream - save file path or writeStream
 @param {Function} callback - callback when file has been download
 @param {Function} processCallback - upload process callback, include processCallback(chunk, hasUploadPercent)
 @param {Boolean} isOverwrite - if local file exist , is overwrite ? default: false
